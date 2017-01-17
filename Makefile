@@ -383,6 +383,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security \
 		   -fno-pie \
 		   -no-pie \
+	   	   -std=gnu89 \
 		   -Wno-error=implicit-function-declaration \
 		   -Wno-implicit-function-declaration \
 		   -fno-delete-null-pointer-checks
