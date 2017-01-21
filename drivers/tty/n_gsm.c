@@ -3531,7 +3531,6 @@ static void gsmtty_cleanup(struct tty_struct *tty)
 	mux_put(gsm);
 	tty->driver_data = NULL;
 	tty->port = NULL;
-	driver->ttys[tty->index] = NULL;
 }
 
 /* Virtual ttys for the demux */
