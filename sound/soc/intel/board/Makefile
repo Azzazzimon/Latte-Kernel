@@ -1,7 +1,7 @@
 #EXTRA CFLAGS
 ccflags-y += -Werror
 
-#EXTRA_CFLAGS += -DDEBUG
+
 
 # Baytrail board
 
@@ -14,4 +14,4 @@ obj-$(CONFIG_SND_SOC_INTEL_ANCHOR8) += snd-byt-cr-dpcm-rt5651.o  byt_cr_board_co
 # Cherrytrail board
 snd-cht-dpcm-rt5659-objs := cht_bl_dpcm_rt5659.o
 snd-cht-cr-aic3100-objs := cht_cr_aic3100.o
-obj-$(CONFIG_SND_SOC_INTEL_CHT_T) += snd-cht-dpcm-rt5659.o snd-cht-cr-aic3100.o
+obj-$(CONFIG_SND_SOC_INTEL_CHT_T) += snd-cht-dpcm-rt5659.o byt_cr_board_configs.o snd-cht-cr-aic3100.o
