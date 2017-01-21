@@ -95,3 +95,9 @@ x509.genkey
 
 # Kconfig presets
 all.config
+
+# Build files
+arch/x86/boot/compressed/vmlinux.bin.mgz
+build.sh
+log.txt
+toolchain
